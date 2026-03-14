@@ -8,6 +8,7 @@ math: true
 mermaid: true
 image:
     path: /assets/img/posts/20260311/1.png
+    alt: 封面
 ---
 ## 本期论文
 
@@ -30,7 +31,7 @@ $$
 
 Y是未来预测空间，同样有如X的结构，不同的是，预测的船舶集合V中不必包含历史船舶集合V中的所有船舶，因为在运动过程中，总会有船舶停靠脱离预测对象，同样总会有船舶启航加入预测对象。另外不同的是，相较于以往模型输出绝对坐标从而导致部分累计误差，y对应的输出是每个预测步长对应的前进增量和对应的横向偏移增量（\\(\\Delta k_i^{t}\\)，\\(\\Delta f_i^{t}\\)）。
 
-![Desktop View](/assets/img/posts/20260311/2.png){: width="972" height="589" }
+![图1](/assets/img/posts/20260311/2.png){: width="972" height="589" }
 
 ### 核心架构
 
@@ -59,7 +60,7 @@ $$
 
 **此处应用改进，将相对运动方向改成更加细致的角度分布，预测的性能应有提高**。
 
-![Desktop View](/assets/img/posts/20260311/3.png){: width="972" height="589" }
+![图2](/assets/img/posts/20260311/3.png){: width="972" height="589" }
 
 其中解码器注意力机制如下：
 
@@ -122,9 +123,9 @@ $$
 
 下面看看论文结论部分的两个图片，分别是轨迹准确度的指标FDE和模型对海事规则的理解程度S。
 
-![Desktop View](/assets/img/posts/20260311/4.png){: width="972" height="589" }
+![图3](/assets/img/posts/20260311/4.png){: width="972" height="589" }
 
-![Desktop View](/assets/img/posts/20260311/5.png){: width="972" height="589" }
+![图4](/assets/img/posts/20260311/5.png){: width="972" height="589" }
 
 实验结果显示，在所有变体中，E-DA 模型的预测误差（FDE）是最低的。如果按照传统的“唯误差论”，研究到这里就可以宣告胜利了。但是，当作者将 E-DA 模型训练得出的 $S$ 张量提取出来并可视化后，发现了一个惊人的现象：
 
