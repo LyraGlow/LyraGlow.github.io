@@ -15,7 +15,7 @@ I am a student and researcher with a strong passion for **Spatio-temporal Big Da
 
 ### 🛠 Tech Stack & Tools
 - **Languages:** Python, C/C++, Shell
-- **OS & Environments:** Linux (Ubuntu 24.04), Customizing workflows (Zotero, IBus-Rime)
+- **OS & Environments:** Linux (Ubuntu 24.04), Customizing workflows (Zotero)
 - **Data & Visualization:** Pandas, NumPy, Matplotlib (Developer of the lightweight plotting utility `Drawn`)
 - **Writing & Formatting:** Markdown, LaTeX
 
@@ -25,23 +25,14 @@ I am a student and researcher with a strong passion for **Spatio-temporal Big Da
 - **Drawn:** A customized, lightweight Python class for elegant scientific plotting with Matplotlib.
 - **Linux Workspace Optimization:** Continuous improvements in setting up deep learning environments (NVIDIA configurations) and efficient academic reading workflows.
 
-## 📝 Recent Posts
-
-*(You can automate this section using GitHub Actions, or manually update it with your favorite posts!)*
-- 📊 Data processing techniques for maritime AIS datasets
-- 🐧 Upgrading and configuring Ubuntu 24.04 for Deep Learning
-- 📈 Elegant scientific plotting with Python
 
 ## ⚙️ Local Development
 
-*(Replace this section with the specific commands for your static site generator, e.g., Hexo, Hugo, or Jekyll)*
-
 ```bash
 # Clone the repository
-git clone [https://github.com/LyraGlow/LyraGlow.github.io.git](https://github.com/LyraGlow/LyraGlow.github.io.git)
-
+git clone https://github.com/LyraGlow/LyraGlow.github.io.git
 # Install dependencies
 npm install  # or bundle install / etc.
-
 # Run locally
 npm run serve
+```
